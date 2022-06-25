@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+
+	box-sizing: border-box;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+/* logo */
+
+#logo 
+
+{
+
+    background-color: #407436 ;
+
+	height: 6vh;
+
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+
+}
+
+#logo h1
+
+{
+
+    color: white;
+
+}
+
+
+
+
+
+
+
+/* Menu */
+
+.menu_button{
+
+	
+
+	font-size: 25px;
+
+	text-align: center;
+
+	font-weight:700;
+
+	
+
+	height: 40px;
+
+	width: 33%;
+
+	
+
+	background-color: #61b550;
+
+	
+
+}
+
+#menu_button_left{
+
+	border-radius: 10px 0px 0px 10px;
+
+}
+
+
+
+#menu_button_right{
+
+	border-radius: 0px 10px 10px 0px;
+
+}
+
+
+
+.menu_button a{
+
+	text-decoration: none;
+
+	color: white;
+
+}
+
+.menu_button:hover{
+
+	background-color:#407436;
+
+}
+
+
+
+#menu 
+
+{
+
+	width: 90%;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	display: flex;
+
+}
+
+
+
+
+
+/* Zawartosc */
+
+body
+
+{
+
+	font-family: 'Poppins', sans-serif;	
+
+	height: 100vh;
+
+	background-image: url("img/site_background.jpg");
+
+}
+
+main{
+
+    display:flex;
+
+	height: 98%;
+
+}
+
+
+
+#kwadrat
+
+{
+
+	height: 85%;
+
+	width: 85%;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	background-color:#c1c9b1 ;
+
+	padding: 1%;
+
+}
+
+
+
+#lewa_strona{
+
+	height: 90%;
+
+	width: 60%;
+
+	overflow-y: auto;
+
+}
+
+
+
+#prawa_strona{
+	margin-top: 6%;
+	height: 70%;
+
+	width: 40%;
+
+	overflow-y: auto;
+
+}
+
+#rameczka_na_posilki{
+	margin-top:10px
+}
+
+#podsumowanie{
+	margin-top:35%
+	
+}
+#podsumowanietext{
+    position: absolute;
+    margin-top: 8%;
+	margin-left: 10%;
+}
+/* Zawartosc_produkty */
+
+
+
+#tabela_produ{
+
+	overflow-y: scroll;
+
+	height: 100%;
+
+	width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+/* Stopka */
+
+
+
+.kafelki{
+
+	height: 100%;
+
+	width: 23%;
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+	margin-bottom: 1%;
+
+	background-color:#61b550;
+
+	border-radius: 3px;
+
+	text-align: center;
+
+	opacity: 90%;
+
+	color: white;
+
+}
+
+
+
+#stopka{
+
+	display:flex;
+
+}
+
+
+
+
+
+/* Tabela_produkty */
+
+
+
+.button_produkty{
+
+	height: 15%;
+
+	width: 60%;
+
+	margin-top:10%;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	background-color:#61b550;
+
+	border-radius: 3px;
+
+	opacity: 90%;
+
+	color: white;
+
+	text-align:center;
+
+}
+
+
+
+#tabela{
+
+	background-color:rgb(206, 202, 202);
+
+	border: solid 2px #407436;
+
+	opacity: 90%;
+
+}
+
+table{
+
+
+
+	width: 100%;
+
+	border: 1px solid black;
+
+	border-collapse: collapse;
+
+}
+
+td{
+
+	width:20%;
+
+	border-right: solid 2px green;
+
+	border-bottom: solid 2px green;
+
+	font-size: 20px;
+
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+#lewa_strona::-webkit-scrollbar {
+
+    width: 12px;
+
+}
+
+ 
+
+
+
+#lewa_strona::-webkit-scrollbar-track {
+
+    -webkit-box-shadow: inset 0 0 6px #c1c9b1 ; 
+
+    -webkit-border-radius: 10px;
+
+    border-radius: 10px;
+
+}
+
+ 
+
+
+
+#lewa_strona:-webkit-scrollbar-thumb {
+
+    -webkit-border-radius: 10px;
+
+    border-radius: 10px;
+
+    background: #c1c9b1; 
+
+    -webkit-box-shadow: inset 0 0 6px #c1c9b1 ; 
+
+}
+
+
+
+/* Input CheckBox na Tabeli */
+
+
+
+.masny_input input
+
+{
+
+    cursor: pointer;
+
+    height: 20px;
+
+    width: 20px;
+
+    margin-top: 6%;
+
+}
+
+
+
+/* Wyszukiwarka input index */
+
+#wyszukiwarka_na_indexie input
+
+{
+
+    width:35%;
+
+}
+
+article{
+	width:100%;
+}
+
+#formularz_zapotrzebowanie{
+    margin-left: 37.5%;
+    width: 25%;
+    height: 100%;
+    background-color: #d1d1d1;
+    text-align: center;
+    font-size: x-large;
+    padding: 20px;
+}
+
+/* Moje dane formularz */
+input[type=number] {
+border-radius: 0px 0px 5px 5px;
+}
